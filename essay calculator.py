@@ -1,12 +1,13 @@
 ## This calculator helps you plan out an essay
 
+#This part is just for fun 
 word = input("Pick a word")
 if len(word) % 2 == 0:
     print("Your word has an even amount of letters")
 else:
     print("Your word has an odd amount of letters (" + str(len(word)) + ")")
 
-# This part will count if a piece of text meets a word count
+# This is the essay calculator, this part will count if a piece of text meets a word count, how many are left, and how to plan to finish it
 
 word_count = int(input("What is your character count? "))
 phrase = input("Type your text here for character count: ")
